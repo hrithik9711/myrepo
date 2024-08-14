@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+#wrapper{
+
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.container{
+     border-radius: 20px;
+    height: 450px;
+    width: 700px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 20px;
+   
+}
+.cupimg{
+    height: 100%;
+    width: 45%;
+
+}
+.cupimg img{
+    height: 100%;
+    width: 100%;
+   padding: 5px auto;  
+   object-fit: fill;
+   
+    
+}
+.cupdisc{
+    width: 55%;
+    height: 100;
+    padding: 10px 0;
+    background-color: #ddd4d4; 
+ padding-left: 30px;
+}
+h2{
+
+  font-family: "Inconsolata", monospace;
+  font-weight: 300;
+  font-size: larger;
+ 
+  margin-top: 15px;
+   
+ 
+
+}
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding-top: 8px;
+    font-size:xx-large
+}
+p{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #736e6e;
+    font-size:   18px;
+}
+b{
+    color: rgb(52, 99, 52);
+    font-size: xx-large;
+    
+}
+del{
+    font-weight: 200;
+    color:#736e6e;
+
+}
+
+button{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    margin-top: 40px;
+    height: 35px;
+    width: 300px;
+    border: 0.1px solid  rgb(52, 99, 52);
+    border-radius: 9px;
+   background-color: rgb(52, 99, 52);
+color: rgb(173, 164, 164);
+cursor: pointer;
+font-weight: 300;
+text-align: center;
+
+
+}
+button:hover{
+    background-color: grey;
+    transition: 0.3s;
+    color: black;
+    border: 0.1px solid  grey;
+ 
+   
+}
+.coupon{
+    margin-left: 80px;
+    padding-top: 20px;
+text-decoration: none;
+color: #736e6e;
+cursor: pointer;
+
+}
+.coupon:hover{
+    color: black;
+}
+
+
+
+.cart{
+    padding-right: 10px;
+    
+
+
+}
